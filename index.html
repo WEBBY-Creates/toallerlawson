@@ -8,42 +8,57 @@
         <meta name="Viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <title>Toaller's Biography</title>
-    </head>
+    </head> 
     <body>
-        <div class="background">
-            <p><a href="./bio.html" target="_self"><button>Bio</button></a></p>
-            <p><a href="./contact.html" target="_self"><button>Contact</button></a></p>
-            <p><a href="./gallery.html" target="_self"><button>Gallery</button></a></p>
-            <p><a href="./event.html" target="_self"><button>Upcoming Event</button></a></p>
-        </div>
-      <footer><br/><br/>&copy;All Rights Reserved</footer>
-    </body>
+        <table cellpadding="0" cellspacing="0" border="0" height="90%" >
+            <tr>
+                <p><a href="./bio" target="_self"><button>Bio</button></a></p>
+                <p><a href="./contact" target="_self"><button>Contact</button></a></p>
+                <p><a href="./gallery" target="_self"><button>Gallery</button></a></p>
+                <p><a href="./event" target="_self"><button>Upcoming Event</button></a></p>
+            </tr> 
+        </table><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <table cellpadding="0" cellspacing="0" border="0" height="10%">
+            <tr>
+                <footer><br/><br/>&copy;All Rights Reserved</footer>
+            </tr>
+        </table>
+            
+    </body>   
+    
 </html>
 
 <style>
-
     body{
-      margin: 0;
-      padding: 0;
-        background: black;
-        font-family: Georgia;
-        height: 100%;
-        width: 100%;
-        content: max-width;
-        position: absolute;
-        margin-bottom: auto;
-    }
-    .background{
-       background-image: url('./NAMQ1672.jpg');
+        margin: 0;
+        padding: 0;
+        margin-top: auto;
+        background-image: url('./NAMQ1672.jpg');
         background-repeat: no-repeat;
+        width: 100%;
         background-size: 100%;
-        background-position: top;
-        height: 100%;
+        overflow-x: auto;
+        overflow-y: 0;
+        overflow: auto;
+        position: absolute;
+        background-color: black;
     }
     
-    button{
+    table{
+        background-position: inherit;
+        height: 100%;
+        font-family: Georgia;
+        
+    }
+    
+    
+      button:hover{
+        background: linear-gradient(to right, red, orange);
+    }
+    
+      button{
         width: 35%;
-        height: 10%;
+        height: 50px;
         border: none;
         align-content: right;
         border-radius: 50px;
@@ -52,24 +67,22 @@
         color: white;
     }
     
-    button:hover{
-        background: linear-gradient(to right, red, orange);
-    }
-    
-    footer{
+        footer{
         bottom: 0;
         height: 100px;
         text-align: center;
         background: linear-gradient(to right, #f32170, #ff6b08);
         color: white;
-        position: relative;
         font-size: 15px;
         width: 100%;
-        margin-top: auto;
+        position: relative;
+        position: fixed;
+        
     }
     
     p{
-        padding-top: 30px;
+        padding-top: 10px;
         
     }
+
 </style>

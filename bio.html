@@ -10,7 +10,9 @@
         <title>Toaller's Biography</title>
     </head>
     <body>
-        <p class="href"><a href="./index.html" target="_self"><b>&leftarrow;</b>back to home</a></p>
+        <table cellpadding="0" cellspacing="0" border="0" height="90%" >
+            <tr>
+        <p class="href"><a href="./index" target="_self"><b><</b> back to home</a></p>
         <h1>Toaller Lawson's Biography</h1>
         <div>
             <p><span>Chef Toaller Lawson</span> started off his career as a waiter, gained some experience assisting cooks at 
@@ -26,43 +28,65 @@
             course dinner which saw attendance of many celebrities and higher profile members of society.</p>
             <p>Chef Lawson also hosted the Taste Of Heritage, a five course tasting experience in 2024. "Rather a more intimate
             dining experience", he says.</p>
-        </div><br/><br/><br/><br/><br/><br/><br/>
+        </div>
+            </tr>
+        </table><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <table cellpadding="0" cellspacing="0" border="0" height="10%">
+            <tr>
        <footer><br/><br/>&copy;All Rights Reserved</footer>
+            </tr>
+       </table>
     </body>
 </html>
 
 <style>
     body{
-        margin: 0px;
-        padding: 0px;
-        padding-top: 10px;
-        background: black;
-        color: floralwhite;
-        font-size: 17.3px;
-        background-image: url('./GSXF1336.jpg');
+         margin: 0;
+        padding: 0;
+        margin-top: auto;
+        background-image: url('./FMVM8842.jpg');
         background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: top;
-        font-family: Georgia;
         width: 100%;
-        height: 100%;
+        background-size: 100%;
+        overflow-x: auto;
+        overflow-y: 0;
+        overflow: auto;
         position: absolute;
+        background-color: black;
+        color: white;
+        background-position: inherit;
+        font-size: 17.5px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:link{
+        color: white;
+    }
+    
+    a:hover{
+        color: red;
+    }
+    
+    a:visited{
+        color: white;
     }
     
     div{
         text-align: center;
-         height: 100%;
     }
     
     h1{
         position: relative;
         width: max-content;
         color: white;
-        font-size: 27px;
         padding-left: 10px;
     }
-    
-    h1::after{
+
+     h1::after{
         content: '';
         background: linear-gradient(to right, red, purple, blue);
         height: 4px;
@@ -74,39 +98,30 @@
         border-radius: 100%;
     }
     
-    h1:hover::after{
+        h1:hover::after{
         width: 0;
     }
-  
     
-    footer{
+     table{
+        font-family: Georgia;
+        height: 100%;
+    }
+    
+       footer{
         bottom: 0;
         height: 100px;
-        background-color: red;
         text-align: center;
         background: linear-gradient(to right, #f32170, #ff6b08);
         color: white;
-        position: relative;
+        font-size: 15px;
         width: 100%;
-        font-size: 15px;
+        position: relative;
+        position: fixed;
     }
     
-    a{
-        color: white;
-        text-decoration: none;
-        font-size: 15px;
-    }
-    
-    a:hover{
-        color: red;
-    }
-    
- 
-    
-    span{
+     span{
         font-size: 19px;
         color: yellow;
         font-weight: bold;
     }
-
 </style>
